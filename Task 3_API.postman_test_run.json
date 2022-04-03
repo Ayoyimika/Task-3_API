@@ -1,0 +1,117 @@
+{
+	"id": "3b8bae5f-26fb-4609-9da7-0b2af65faea1",
+	"name": "Task 3_API",
+	"timestamp": "2022-04-03T10:39:11.333Z",
+	"collection_id": "18370851-652ca05d-499f-454c-86b5-25cf148a037d",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2c555819-3f1c-4d4a-a955-66a570357640",
+			"name": "Create user",
+			"url": "https://reqres.in/api/users",
+			"time": 1697,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"User created successfully": true
+			},
+			"testPassFailCounts": {
+				"User created successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1697
+			],
+			"allTests": [
+				{
+					"User created successfully": true
+				}
+			]
+		},
+		{
+			"id": "392e8b5d-c3b4-48af-a894-6b351cfd57f4",
+			"name": "List Single User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 225,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"User details displayed successfully": true,
+				"First Name is Janet": true
+			},
+			"testPassFailCounts": {
+				"User details displayed successfully": {
+					"pass": 1,
+					"fail": 0
+				},
+				"First Name is Janet": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				225
+			],
+			"allTests": [
+				{
+					"User details displayed successfully": true,
+					"First Name is Janet": true
+				}
+			]
+		},
+		{
+			"id": "f11d2598-1247-4958-be30-b8764bfec003",
+			"name": "Update user",
+			"url": "https://reqres.in/api/users/2",
+			"time": 218,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"User profile updated successfully": true
+			},
+			"testPassFailCounts": {
+				"User profile updated successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				218
+			],
+			"allTests": [
+				{
+					"User profile updated successfully": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2140,
+	"collection": {
+		"requests": [
+			{
+				"id": "2c555819-3f1c-4d4a-a955-66a570357640",
+				"method": "POST"
+			},
+			{
+				"id": "392e8b5d-c3b4-48af-a894-6b351cfd57f4",
+				"method": "GET"
+			},
+			{
+				"id": "f11d2598-1247-4958-be30-b8764bfec003",
+				"method": "PUT"
+			}
+		]
+	}
+}
